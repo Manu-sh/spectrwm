@@ -1,4 +1,6 @@
-PREFIX       ?= /usr/local
+CFLAGS = -O3 -ffast-math
+
+PREFIX       ?= /usr
 BINDIR       ?= $(PREFIX)/bin
 LIBDIR       ?= $(PREFIX)/lib
 DATAROOTDIR  ?= $(PREFIX)/share
